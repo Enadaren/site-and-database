@@ -1,0 +1,86 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+}
+.headline
+{display: grid;
+grid-template-columns: 60% 40%;
+position: relative;
+top: 20px;
+left: 10%; 
+width: 930px;}
+.hello
+{
+    font-style: oblique;
+    color: rgb(128 29 29);
+}
+a
+{text-decoration: none;}
+.other_links
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;   
+}
+.other_links a
+{
+    text-align: center;
+}
+.link
+{
+    font-size: 14;
+    color: rgb(102 87 87);
+}
+a:hover
+{
+    color:black;
+}
+.cities
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    column-gap: 10px;
+    position: relative;
+    top: 40px;
+    left: 10%;
+    width: 900px;
+    height: 900px;
+}
+
+.city img
+{
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+.city a
+{
+    display: grid;
+    grid-template-rows: 250px 50px;
+    row-gap: 10px;
+    font-style: oblique;
+    color: rgb(128 29 29);
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.social_links
+{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    position: relative;
+    top: 80px;
+    left: 45%;
+    width: 90px;
+    height: 30px;
+}
+
+.social_links a
+{
+    display: block;
+    height: 100%;
+    width: 100%;  
+}
